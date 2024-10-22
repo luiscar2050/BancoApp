@@ -1,7 +1,7 @@
 public class BancoApp {
     public static void main(String[] args) {
-        CuentaBancaria cuenta1 = new CuentaBancaria("Alice");
-        CuentaBancaria cuenta2 = new CuentaBancaria("Bob");
+        CuentaBancaria cuenta1 = new CuentaBancaria("Luis");
+        CuentaBancaria cuenta2 = new CuentaBancaria("Sebastian");
 
         try {
             cuenta1.depositar(500000);
